@@ -330,7 +330,7 @@ int main(){
     case 61:
         cout << "Give me a noun and a bodypart" << endl;
         cin >> noun1 >> bodypart1;
-        cout<< "Do not demand for "<<noun1 <<"â€™s soul if you already got their "<<bodypart1 <<"." << endl;
+        cout<< "Do not demand for "<<noun1 <<"’s soul if you already got their "<<bodypart1 <<"." << endl;
         break;
     case 62:
         cout << n << endl;
@@ -350,12 +350,12 @@ int main(){
     case 65:
         cout << "Give me a verb and a noun" << endl;
         cin >> verb1 >>noun1;
-        cout<< "Donâ€™t be "<<verb1 <<", because every wrong "<<noun1 <<" discarded is another step forward." << endl;
+        cout<< "Don’t be "<<verb1 <<", because every wrong "<<noun1 <<" discarded is another step forward." << endl;
         break;
     case 66:
         cout << "Give me 2 nouns" << endl;
         cin >> noun1 >> noun2;
-        cout<< "Donâ€™t confuse "<<noun1 <<" with "<<noun2 <<". " << endl;
+        cout<< "Don’t confuse "<<noun1 <<" with "<<noun2 <<". " << endl;
         break;
     case 67:
         cout << n << endl;
@@ -375,17 +375,17 @@ int main(){
     case 70:
         cout << "Give me two nouns" << endl;
         cin >> noun1 >> noun2;
-        cout<< "70.	Donâ€™t let the "<<noun1 <<" and useless detail choke your "<<noun1 <<"." << endl;
+        cout<< "70.	Don’t let the "<<noun1 <<" and useless detail choke your "<<noun1 <<"." << endl;
         break;
     case 71:
         cout << "Give me two plural nouns" << endl;
         cin >> pnoun >> noun1;
-        cout<< "71.	Donâ€™t let your "<<pnoun <<" overshadow your "<<noun1 <<"." << endl;
+        cout<< "71.	Don’t let your "<<pnoun <<" overshadow your "<<noun1 <<"." << endl;
         break;
     case 72:
         cout << n << endl;
         cin >> noun1;
-        cout<< "Donâ€™t worry; "<<noun1 <<" will knock on your door soon." << endl;
+        cout<< "Don’t worry; "<<noun1 <<" will knock on your door soon." << endl;
         break;
     case 73:
         cout << "Give me a verb" << endl;
@@ -395,7 +395,7 @@ int main(){
     case 74:
         cout <<  n2 << endl;
         cin >> noun1 >> noun2;
-        cout<< noun1 <<" is the ability to meet lifeâ€™s "<<noun2 <<"." << endl;
+        cout<< noun1 <<" is the ability to meet life’s "<<noun2 <<"." << endl;
         break;
     case 75:
         cout << "Give me an adjective" << endl;
@@ -490,7 +490,7 @@ int main(){
      case 93:
         cout << "Give me a noun and a body part, in that order."<< endl;
         cin >> noun1 >> bodypart1;
-        cout<< "Get your "<< bodypart1 <<" setâ€¦"<< noun1 <<" will lead you on." << endl;
+        cout<< "Get your "<< bodypart1 <<" set…"<< noun1 <<" will lead you on." << endl;
         break;
      case 94:
         cout<< "Go take a rest; you deserve it." << endl;
