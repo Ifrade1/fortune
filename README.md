@@ -1,4 +1,4 @@
 # fortune
 fortune cookie generator
 Open the fortune.cpp file for the code.
-fortune/fortune-cookie.gif
+![alt text](fortune/fortune-cookie.gif)
