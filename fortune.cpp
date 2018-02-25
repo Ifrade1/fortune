@@ -2,7 +2,7 @@
  * fortunecookiegenerator.cpp
  *
  *  Created on: Feb 24, 2018
- *      Author: warri
+ *      Author: Isabel Frade
  */
 #include <iostream>
 using namespace std;
@@ -24,9 +24,13 @@ int main(){
     string bodypart1 = " ";
     string pnoun = " ";
     string adverb1 = " ";
+    string adverb2 = " ";
     string place1;
+    string n = "Give me a noun";
+    string n2 = "Give me two nouns";
+    string Gad1 = "Give me an adjective";
     cout<<"Welcome to fortune cookie generator!"  << endl;
-    cout<< "Pick a random number between 1 and 60! ";
+    cout<< "Pick a random number between 1 and 100! ";
 //exception catch
     int input;
     cin >> input;
@@ -311,25 +315,220 @@ int main(){
     case 58:
         cout << "Give me a noun" << endl;
         cin >> noun1;
-        cout<< "58.	Disbelief destroys the "<<noun1 <<"." << endl;
+        cout<< "Disbelief destroys the "<<noun1 <<"." << endl;
         break;
     case 59:
         cout << "Give me a noun" << endl;
         cin >> noun1;
-        cout<< "59.	Distance yourself from the "<<noun1 <<"." << endl;
+        cout<< "Distance yourself from the "<<noun1 <<"." << endl;
         break;
     case 60:
         cout << "Give me a ability" << endl;
         cin >> noun1;
-        cout<< "60.	Do not be intimidated by the  "<<noun1 <<" of others." << endl;
+        cout<< "Do not be intimidated by the  "<<noun1 <<" of others." << endl;
         break;
-    /* case 61:
+    case 61:
+        cout << "Give me a noun and a bodypart" << endl;
+        cin >> noun1 >> bodypart1;
+        cout<< "Do not demand for "<<noun1 <<"’s soul if you already got their "<<bodypart1 <<"." << endl;
+        break;
+    case 62:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< "62.	Do not let ambitions overshadow small "<<noun1 <<"." << endl;
+        break;
+    case 63:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< "63.	Do not make extra work for "<<noun1 <<"." << endl;
+        break;
+    case 64:
+        cout << "Give me 2 nouns" << endl;
+        cin >> noun1 >> noun2;
+        cout<< "64.	Do not underestimate "<<noun1 <<". "<<noun1 <<" have unlimited potentials." << endl;
+        break;
+    case 65:
+        cout << "Give me a verb and a noun" << endl;
+        cin >> verb1 >>noun1;
+        cout<< "Don’t be "<<verb1 <<", because every wrong "<<noun1 <<" discarded is another step forward." << endl;
+        break;
+    case 66:
+        cout << "Give me 2 nouns" << endl;
+        cin >> noun1 >> noun2;
+        cout<< "Don’t confuse "<<noun1 <<" with "<<noun2 <<". " << endl;
+        break;
+    case 67:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< "Do not just spend "<<noun1 <<" Invest it." << endl;
+        break;
+    case 68:
+        cout << "Give me verb" << endl;
+        cin >> verb1;
+        cout<< "68.	Do not just think, "<<verb1 <<"!" << endl;
+        break;
+    case 69:
+        cout << "Give me a plural noun and two adverbs" << endl;
+        cin >> pnoun >> adverb1 >> adverb2;
+        cout<< "Do not let "<<pnoun <<" impose on you, work "<<adverb1 <<" and "<<adverb2 <<"." << endl;
+        break;
+    case 70:
+        cout << "Give me two nouns" << endl;
+        cin >> noun1 >> noun2;
+        cout<< "70.	Don’t let the "<<noun1 <<" and useless detail choke your "<<noun1 <<"." << endl;
+        break;
+    case 71:
+        cout << "Give me two plural nouns" << endl;
+        cin >> pnoun >> noun1;
+        cout<< "71.	Don’t let your "<<pnoun <<" overshadow your "<<noun1 <<"." << endl;
+        break;
+    case 72:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< "Don’t worry; "<<noun1 <<" will knock on your door soon." << endl;
+        break;
+    case 73:
+        cout << "Give me a verb" << endl;
+        cin >> verb1;
+        cout<< "Each day, compel yourself to "<<verb1 <<" something you would rather not "<<verb1 <<"." << endl;
+        break;
+    case 74:
+        cout <<  n2 << endl;
+        cin >> noun1 >> noun2;
+        cout<< noun1 <<" is the ability to meet life’s "<<noun2 <<"." << endl;
+        break;
+    case 75:
+        cout << "Give me an adjective" << endl;
+        cin >> noun1;
+        cout<< "Embrace this "<< ad1 <<"relationship you have!" << endl;
+        break;
+    case 76:
+        cout << "Give me a plural noun" << endl;
+        cin >> pnoun;
+        cout<< "Emulate what you admire in your "<< noun1 <<"." << endl;
+        break;
+    case 77:
         cout << "Give me" << endl;
         cin >> noun1;
-        cout<< "" << endl;
-        break; */
+        cout<< "Emulate what you respect in your "<< noun1 <<"." << endl;
+        break;
+    case 78:
+        cout << n2 << endl;
+        cin >> noun1 >> noun2;
+        cout<< "Every "<< noun1 <<" blooms in its own sweet "<< noun2 <<"." << endl;
+        break;
+    case 79:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< "Every wise "<< noun1 <<" started out by asking many questions." << endl;
+        break;
+    case 80:
+        cout << "Give me an event" << endl;
+        cin >> noun1;
+        cout<< "80.	Everyday in your life is a special "<< noun1 <<"." << endl;
+        break;
+    case 81:
+        cout << "Give me a noun  -er adjective";
+        cin >> noun1 >> ad1;
+        cout<< noun1 <<" is the chance to do "<< ad1 <<" next time." << endl;
+        break;
+    case 82:
+        cout << n2 << endl;
+        cin >> noun1 >> noun2;
+        cout<< noun1 <<" is the path of least "<< noun2 <<"." << endl;
+        break;
+    case 83:
+        cout << "Give me three nouns" << endl;
+        cin >> noun1 >> noun2 >> noun3;
+        cout<< noun1 <<" and "<< noun2 <<" are two sides of the same "<< noun3 <<"." << endl;
+        break;
+    case 84:
+        cout << "Give me two nouns" << endl;
+        cin >> noun1 >> noun2;
+        cout<< "Fearless "<< noun1 <<" is the foundation of "<< noun2 <<"." << endl;
+        break;
+    case 85:
+        cout << "Give me a animal and an edible object" << endl;
+        cin >> noun1 >>noun2;
+        cout<< "Feeding a "<< noun1 <<" with "<< noun2 <<" does not get extra appreciation." << endl;
+        break;
+    case 86:
+        cout << "Give me" << endl;
+        cin >> noun1;
+        cout<< "86.	First think of what you want to do; then do what you have to do." << endl;
+        break;
+     case 87:
+        cout << "Give me two nouns and a verb in the past tense, in that order." << endl;
+        cin >> noun1 >>noun2 >>verb1;
+        cout<< "For "<< noun1 <<" is never "<< verb1 <<" by "<< noun1 <<". "<< noun1 <<" is "<< verb1 <<" by "<< noun2 <<"." << endl;
+        break;
+     case 88:
+        cout << "Give me a verb." << endl;
+        cin >> verb1;
+        cout<< "For the things we have to "<< verb1 <<" before we can do them, we "<< verb1 <<" by doing them." << endl;
+        break;
+     case 89:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< noun1 <<"e Not Found: Abort, Retry, Ignore?" << endl;
+        break;
+     case 90:
+        cout << "Give me two nouns" << endl;
+        cin >> noun1 >>noun2;
+        cout<< "From listening comes "<< noun1 <<" and from speaking "<< noun2 <<"." << endl;
+        break;
+     case 91:
+        cout << "Give me a personality trait" << endl;
+        cin >> noun1;
+        cout<< "From now on your "<< noun1 <<" will lead you to success." << endl;
+        break;
+     case 92:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< noun1 <<" rules the world.." << endl;
+        break;
+     case 93:
+        cout << "Give me a noun and a body part, in that order."<< endl;
+        cin >> noun1 >> bodypart1;
+        cout<< "Get your "<< bodypart1 <<" set…"<< noun1 <<" will lead you on." << endl;
+        break;
+     case 94:
+        cout<< "Go take a rest; you deserve it." << endl;
+        break;
+     case 95:
+        cout << "Give me a noun and a plural noun, in that order." << endl;
+        cin >> noun1 >>pnoun;
+        cout<< "Good "<< pnoun <<" will come to you by "<< noun1 <<"." << endl;
+        break;
+     case 96:
+        cout << "Give me a verb" << endl;
+        cin >> verb1;
+        cout<< "Good to begin "<< verb1 <<", better to end "<< verb1 <<"." << endl;
+        break;
+     case 97:
+        cout << "Give me an action." << endl;
+        cin >>verb1;
+        cout<< "Happiness begins with facing life with a smile and a "<< verb1 <<"." << endl;
+        break;
+    case 98:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< ""<< noun1 <<" will bring you good luck." << endl;
+        break;
+    case 99:
+        cout << n << endl;
+        cin >> noun1;
+        cout<< "Happy "<< noun1 <<" is just in front of you." << endl;
+        break;
+    case 100:
+        cout << "Give me three nouns." << endl;
+        cin >> noun1 >>noun2 >>noun3;
+        cout<< "Hard "<< noun1 <<" break no "<< noun2 <<", fine "<< noun1 <<" butter no "<< noun3 <<"." << endl;
+        break;
+
+
     default:
-        cout <<"Number is out of bounds. Exiting program";
+        cout <<"Input is out of bounds. Exiting program";
         cin >> input;
         break;
     }
